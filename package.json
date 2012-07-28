@@ -4,6 +4,10 @@
     "name": "Ryan Gerard",
     "email": "ryan.gerard@gmail.com"
   },
+  "domains": [
+    "tweetchance.com",
+    "www.tweetchance.com"
+  ],
   "subdomain": "tweetchance",
   "version": "0.1.1-36",
   "scripts": {
