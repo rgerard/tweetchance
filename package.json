@@ -1,0 +1,27 @@
+{
+  "name": "tweet-chance",
+  "author": {
+    "name": "Ryan Gerard",
+    "email": "ryan.gerard@gmail.com"
+  },
+  "subdomain": "tweetchance",
+  "version": "0.1.1-36",
+  "scripts": {
+    "start": "./app.js"
+  },
+  "dependencies": {
+    "express": "2.5.9",
+    "jade": ">= 0.0.1",
+    "twitter": ">= 0.0.1",
+    "mongojs": ">= 0.0.1",
+    "oauth": ">= 0.0.1",
+    "underscore": ">= 0.0.1",
+    "async": ">= 0.0.1"
+  },
+  "analyze": false,
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
