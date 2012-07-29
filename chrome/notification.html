@@ -1,0 +1,18 @@
+<html>
+    <head>
+	<script>
+		// We retrieve the new tweet from the background page.
+		var bet = chrome.extension.getBackgroundPage().bet;
+	</script>
+    </head>
+    <body>
+	<div id="notification">
+		<div id="content">
+			<div id="bet">
+				<script>document.write(bet.hello);</script>
+			</div>
+		</div>
+		<div style="clear:left;"></div>
+	</div>
+    </body>
+</html>

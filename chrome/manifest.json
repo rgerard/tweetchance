@@ -1,0 +1,16 @@
+{
+  "name": "TweetChance Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Extension for TweetChance",
+  "background": {
+      "scripts": ["server.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "notifications"  
+  ]
+}
