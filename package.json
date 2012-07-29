@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "express": "2.5.9",
-    "jade": ">= 0.0.1",
+    "ejs": ">= 0.0.1",
     "twitter": ">= 0.0.1",
     "mongojs": ">= 0.0.1",
     "oauth": ">= 0.0.1",

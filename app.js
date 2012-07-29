@@ -36,7 +36,7 @@ var app = module.exports = express.createServer();
 
 app.configure(function(){
   app.set('views', __dirname + '/views');
-  app.set('view engine', 'jade');
+  app.set('view engine', 'ejs');
   app.use(express.bodyParser());
   app.use(express.cookieParser());
   app.use(express.session({ secret: "tweetchanceyouknowit" }));
@@ -303,6 +303,10 @@ twit.stream('user', function(stream) {
 // Routes
 
 app.get('/', function(req, res) {
+    res.render('index', {'layout':false});
+});
+
+app.get('/start', function(req, res) {
     if( !req.session.access_token ) {
         req.session.state = Math.floor( Math.random() * 1100000000000 ).toString()
         return betable.authorize( res, req.session.state )
